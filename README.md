@@ -2,7 +2,7 @@
 
 Este projeto é um desafio técnico com foco em **desenvolvimento de interfaces administrativas** para o gerenciamento de garagens, vagas e planos destinados a mensalistas digitais.
 
-> Para uma explicação mais detalhada das regras de negócio e histórias de usuário, acesse o [PROJETO-front.md](./PROJETO-front.md).
+> Para uma explicação mais detalhada das regras de negócio e histórias de usuário, acesse o [PROJECT-STORY.md](./PROJECT-STORY.md).
 
 ## 🎯 Objetivo
 
