@@ -53,7 +53,7 @@ Utilize as credenciais a seguir para autenticar na API mockada (quando necessár
 ## ✅ O que será avaliado
 
 - Estrutura e organização do código
-- Responsividade e usabilidade
+- Usabilidade
 - Componentização e reutilização
 - Fluxo de estados e validações
 - Clareza dos commits
