@@ -48,7 +48,7 @@ Utilize as credenciais a seguir para autenticar na API mockada (quando necessár
 - Senha: `@estapar@`
 - API: [https://mock.apidog.com/m1/1022746-1009361-default/Authenticate](https://mock.apidog.com/m1/1022746-1009361-default/Authenticate)
 
-Ao autenticar, será devolvido um token que deverá ser enviado nas demais requisições aos endpoints. O token deve ser enviado com Bearer Token.
+Ao autenticar, será devolvido um token que deverá ser enviado nas demais requisições aos endpoints. O token deve ser enviado como Bearer Token.
 
 ---
 
