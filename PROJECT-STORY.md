@@ -1,7 +1,7 @@
 # 🧪 Teste Front-end - Estapar
 
 **FIGMA**: [Protótipo](https://www.figma.com/board/CdIGvRXNpxcPyJIze4hYRE/Teste-Front?t=YU8tn1L6rJayH1K8-0)  
-**API**: [Endpoint Mockado](https://mock.apidog.com/m1/1022746-1009361-default/Authenticate)  
+**API**: [https://c6wu4yjlku.apidog.io](https://c6wu4yjlku.apidog.io)
 **Usuário**: `estapar`  
 **Senha**: `@estapar@`  
 
