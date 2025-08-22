@@ -1,72 +1,77 @@
-# Projeto ESTAPAR
+# 🧪 Teste Técnico - Frontend Estapar
 
-Este é o repositório do frontend da aplicação, desenvolvido com Next.js.
+Este projeto é um desafio técnico com foco em **desenvolvimento de interfaces administrativas** para o gerenciamento de garagens, vagas e planos destinados a mensalistas digitais.
 
-## Visão Geral.
+> Para uma explicação mais detalhada das regras de negócio e histórias de usuário, acesse o [PROJECT-STORY.md](./PROJECT-STORY.md).
 
-Este projeto é uma aplicação web moderna, construída para fornecer uma interface de usuário interativa e responsiva. Ele utiliza as últimas tecnologias para garantir performance, escalabilidade e uma ótima experiência de desenvolvimento.
+## 🎯 Objetivo
 
-## Tecnologias Utilizadas.
+Criar uma interface funcional e responsiva baseada nos requisitos fornecidos em design e API mockada. O objetivo é simular a operação real de um sistema usado por gestores da Estapar.
 
-*   **Framework:** Next.js 15.4.6
-*   **Linguagem:** TypeScript
-*   **Estilização:** Tailwind CSS e Material-UI (MUI)
-*   **Gerenciamento de Estado:** React Context API (para autenticação)
-*   **Requisições HTTP:** Axios
-*   **Componentes/Ícones:** Lucide React, Material-UI Icons
-*   **Notificações:** React Toastify
-*   **Outros:** qrcode.react (para geração de QR codes)
+---
 
-## Estrutura do Projeto.
+## 📦 Funcionalidades
 
-O projeto segue uma estrutura de pastas organizada para facilitar a manutenção e o desenvolvimento:
+### 1. Lista de Garagens
+- Exibição de garagens com: Código, Nome, Endereço, Cidade/UF e Regional.
+- Campo de busca por nome.
+- Drawer para visualização dos detalhes da garagem.
 
+### 2. Gestão de Vagas e Planos
+- Exibe: Nome do estacionamento, total de vagas, ocupadas e disponíveis.
+- Lista de planos com descrição, valor, número de vagas, status e ações.
+- Permite criar, editar e ativar/desativar planos.
 
-## Como Rodar o Projeto.
+### 3. Cadastro e Edição de Planos
+- Formulário com:
+  - Nome do plano
+  - Tipo de veículo
+  - Valores (mensal e diário)
+  - Período de validade
+  - Total de vagas e status
+- Validações obrigatórias e feedback visual para ações (sucesso/erro).
 
-Para configurar e rodar o projeto localmente, siga os passos abaixo:
+---
 
-### Pré-requisitos.
+## 🖼️ Layout
 
-Certifique-se de ter o Node.js (versão 20 ou superior) e o npm (ou yarn) instalados em sua máquina.
+- [Acesse o Figma do projeto](https://www.figma.com/board/CdIGvRXNpxcPyJIze4hYRE/Teste-Front?t=YU8tn1L6rJayH1K8-0)
+- Utilize o modo de inspeção para seguir espaçamentos, tamanhos, cores, fontes e comportamento esperados.
 
-### Instalação.
+---
 
-1.  Clone o repositório:
-    ```bash
-    git clone <URL_DO_REPOSITORIO>
-    cd <NOME_DA_PASTA_DO_PROJETO>
-    ```
-2.  Instale as dependências:
-    ```bash
-    npm install
-    # ou
-    yarn install
-    ```
+## 🔐 Autenticação
 
-### Configuração.
+Utilize as credenciais a seguir para autenticar na API mockada (quando necessário):
 
-Crie um arquivo `.env.local` na raiz do projeto e adicione as variáveis de ambiente necessárias (ex: `NEXT_PUBLIC_API_URL=http://localhost:3000/api` ).
+- Usuário: `estapar`
+- Senha: `@estapar@`
+- URL API mocada: [https://mock.apidog.com/m1/1022746-1009361-default](https://mock.apidog.com/m1/1022746-1009361-default)
+- Documentação da API: [https://c6wu4yjlku.apidog.io](https://c6wu4yjlku.apidog.io)
 
-### Execução.
+Ao autenticar, será devolvido um token que deverá ser enviado nas demais requisições aos endpoints. O token deve ser enviado como Bearer Token.
 
-Para iniciar o servidor de desenvolvimento:
+---
 
-```bash
-npm run dev
-# ou
-yarn dev
-```
+## ✅ O que será avaliado
 
-O aplicativo estará disponível em http://localhost:3005 (ou a porta configurada ).
-Scripts Disponíveis
-npm run dev: Inicia o servidor de desenvolvimento com Next.js.
-npm run build: Compila o projeto para produção.
-npm run start: Inicia o servidor de produção.
-npm run lint: Executa o linter para verificar problemas de código.
+- Estrutura e organização do código
+- Usabilidade
+- Componentização e reutilização
+- Fluxo de estados e validações
+- Clareza dos commits
+- Cobertura de testes (quando aplicável)
+- Justificativa das escolhas técnicas
 
-Contribuição.
-[Se possível, deixe sua opnião sobre o projeto no email a baixo].
+---
 
-Contato.
-[Paulo Jose mota] - [paulob2@hotmail.com]
+## 🚀 Entrega
+
+1. Publique o projeto em alguma plataforma (Vercel, Netlify, etc).
+2. Crie um **Pull Request** para este repositório com:
+   - O link da aplicação publicada
+   - Eventuais observações no corpo da PR
+
+---
+
+**Boa sorte! Estamos ansiosos para ver seu código.** 💼✨
